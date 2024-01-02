@@ -1,0 +1,9 @@
+echo 'Starting job on Host: '$HOSTNAME                                       
+echo 'Loading py3-v4.1.1'
+eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh`
+export PYTHONUSERBASE=/home/xk35/.venvs/venvk
+echo 'Using PYTHONUSERBASE: '${PYTHONUSERBASE}
+
+export PATH=$PYTHONUSERBASE/bin:$PATH
+export PYTHONPATH=$PYTHONUSERBASE/lib/python3.7/site-packages:$PYTHONPATH
+

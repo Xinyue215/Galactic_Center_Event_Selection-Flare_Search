@@ -1,0 +1,3 @@
+eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.1.0/setup.sh` 
+export PATH=$HOME/.local/bin:$PATH
+#eval '/data/user/xk35/software/meta_projects/v01-01-00/build/env-shell.sh'
